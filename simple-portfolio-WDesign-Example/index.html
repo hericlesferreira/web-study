@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/animation.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Portfolio</title>
+</head>
+<body>
+	
+	<div class="container navbar">
+		<header>
+			<div class="lgo">
+				<h1>Héricles</h1>
+			</div>
+
+			<nav>
+				<ul>
+					<li><a href="#about">about me</a></li>
+					<li><a href="#skills">skills</a></li>
+					<li><a href="#work">my work</a></li>
+				</ul>
+			</nav>
+
+		</header>
+	</div>
+
+	<div class="container main-info-section">
+		<div class="text">
+			<h1>
+				<span>H</span>
+				<span class="m-left">i</span>
+				<span class="m-left">,</span>
+				<span>I</span>
+				<span class="m-left">'</span>
+				<span class="m-left">m</span>
+				<span class="name">H</span>
+				<span class="m-left name">e</span>
+				<span class="m-left name">r</span>
+				<span class="m-left name">i</span>
+				<span class="m-left name">c</span>
+				<span class="m-left name">l</span>
+				<span class="m-left name">e</span>
+				<span class="m-left name">s</span>
+				<br>
+				<span>F</span>
+				<span class="m-left">e</span>
+				<span class="m-left">r</span>
+				<span class="m-left">r</span>
+				<span class="m-left">e</span>
+				<span class="m-left">i</span>
+				<span class="m-left">r</span>
+				<span class="m-left">a</span>
+			</h1>
+			<p>CSS / JavaScript</p>
+			<a href="#contact">contact me</a>
+		</div>
+
+		<div class="profile-image">
+			<img src="img/profile-image.jpg" alt="">
+		</div>
+
+	</div>
+
+	<div class="container" id="about">
+		<h1>About</h1>
+		<div class="about-me-info">
+			<p>Lorem ipsum quis aliquam torquent magna ornare adipiscing id posuere class magna, arcu curabitur blandit maecenas dolor suspendisse duis rhoncus litora laoreet vitae.</p>
+			<p>Lorem ipsum quis aliquam torquent magna ornare adipiscing id posuere class magna, arcu curabitur blandit maecenas dolor suspendisse duis rhoncus litora laoreet vitae.</p>
+			<p>Lorem ipsum quis aliquam torquent magna ornare adipiscing id posuere class magna, arcu curabitur blandit maecenas dolor suspendisse duis rhoncus litora laoreet vitae.</p>
+		</div>
+		<!-- VAI UMA FOTINHA AQUI img src="" alt="" -->
+	</div>
+
+	<div class="container skills" id="skills">
+		<h1>Skills</h1>
+		<p class="skills-info">Lorem ipsum quis aliquam torquent magna ornare adipiscing id posuere class magna, arcu curabitur blandit maeceLorem ipsum quis aliquam torquent magna ornare adipiscing id posuere class magna, arcu curabitur blandit maece</p>
+	
+		<div class="html">
+			<div class="tag-html">
+				<p>HTML</p>
+			</div>
+			<div class="progressbar">
+				<div class="bar-html"></div>
+			</div>
+		</div>
+		<div class="html">
+			<div class="tag-css">
+				<p>HTML</p>
+			</div>
+			<div class="progressbar">
+				<div class="bar-css"></div>
+			</div>
+		</div>
+		<div class="html">
+			<div class="tag-javascript">
+				<p>HTML</p>
+			</div>
+			<div class="progressbar">
+				<div class="bar-javascript"></div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="container work" id="work">
+		<h1>Work</h1>
+		<div class="work-category">
+			<button class="active" id="designing">Web Designing</button>
+			<button id="animation">Web Animation</button>
+			<button id="project">Project</button>
+		</div>
+		<div class="category-designing showCategory">
+			<a href=""><img src="" alt=""></a>
+			<a href=""><img src="" alt=""></a>
+			<a href=""><img src="" alt=""></a>
+			<a href=""><img src="" alt=""></a>
+			<a href=""><img src="" alt=""></a>
+		</div>
+		<div class="category-designing hideCategory">
+			<a href=""><img src="" alt=""></a>
+			<a href=""><img src="" alt=""></a>
+			<a href=""><img src="" alt=""></a>
+		</div>
+		<div class="category-designing hideCategory">
+			<a href=""><img src="" alt=""></a>
+			<a href=""><img src="" alt=""></a>
+			<a href=""><img src="" alt=""></a>
+		</div>
+	</div>
+
+	<div class="container contact" id="contact">
+		<h1>Contact</h1>
+		<form action="">
+			<input type="text" name="name" placeholder="Full Name">
+			<input type="email" placeholder="Email">
+			<input type="email" placeholder="hericles_ps@hotmail.com" disabled>
+			<textarea name="message" cols="30" rows="10" placeholder="Message"></textarea>
+			<input type="submit">
+		</form>
+	</div>
+
+	<footer>
+		<hr>
+		<p>2020 Copyright. All rights reserved.</p>
+	</footer>
+	
+<script src="js/ScrollMagic.min.js"></script>
+<script src="js/animation.gsap.min.js"></script>
+<script src="js/TimelineLite.min.js"></script>
+<script src="js/TweenMax.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
